@@ -8,10 +8,11 @@ import face from "../assets/icons/face.svg";
 import insta from "../assets/icons/insta.svg";
 import twitter from "../assets/icons/twitter.svg";
 import youtube from "../assets/icons/youtube.svg";
+import About from "../components/About.astro";
 ---
 
 <Layout title="Rocketseat old website">
-  <header class="bg-violet-500">
+  <header class="bg-rocketseat">
     <div class="max-w-[64rem] mx-auto p-5">
       <nav class="flex items-center">
         <a href="#" class="flex items-center gap-7 mr-7">
@@ -19,7 +20,7 @@ import youtube from "../assets/icons/youtube.svg";
           <div class="w-px bg-white/50 h-6"></div>
         </a>
 
-        <ul class="hidden sm:flex items-center gap-4">
+        <ul class="hidden md:flex items-center gap-4">
           <li class="font-bold uppercase text-white hover:border-b-2">
             <a href="">Início</a>
           </li>
@@ -34,7 +35,7 @@ import youtube from "../assets/icons/youtube.svg";
           </li>
         </ul>
 
-        <ul class="hidden sm:flex items-center gap-4 ml-auto">
+        <ul class="hidden md:flex items-center gap-4 ml-auto">
           <li class="w-5 h-5 flex items-center justify-center">
             <a href="#">
               <Image src={face} alt="" />
@@ -54,4 +55,5 @@ import youtube from "../assets/icons/youtube.svg";
     </div>
   </header>
   <Hero></Hero>
+  <About></About>
 </Layout>
