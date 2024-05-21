@@ -1,0 +1,49 @@
+---
+import { Image } from "astro:assets";
+import NewsletterImg from "../assets/newsletter-img.svg";
+---
+
+<section
+  class="relative bg-rocketseat pt-10 pb-[6.75rem] px-3 md:px-0 md:pt-12 md:pb-8"
+>
+  <div
+    class="md:max-1-[53.75rem] md:mx-auto md:flex gap-10 items-center justify-center"
+  >
+    <Image
+      class="opacity-20 absolute -bottom-[2.2rem] -translate-x-1/2 left-1/2 md:static md:translate-x-0 md:opacity-100"
+      src={NewsletterImg}
+      alt=""
+    />
+
+    <div class="text-center md:text-left md:mt-2">
+      <h1 class="text-white text-xl font-bold md:text-2xl">
+        Receba conteúdos exclusivos
+      </h1>
+      <p class="text-white/80 text-sm mt-1 md:text-base">
+        Spam receber, você não irá!
+      </p>
+      <div class="bg-white mt-5 p-3 rounded-md flex items-center max-w-[21.35rem] mx-auto">
+        <input
+          class="placeholder:text-gray-400"
+          type="text"
+          placeholder="Digite seu melhor e-mail"
+        />
+        <svg
+        class="ml-auto"
+          width="17"
+          height="15"
+          viewBox="0 0 17 15"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            id="send - material"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M0.511963 14.45V9.21195L11.762 7.69995L0.511963 6.18795V0.949951L16.262 7.69995L0.511963 14.45Z"
+            fill="#7159C1"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
