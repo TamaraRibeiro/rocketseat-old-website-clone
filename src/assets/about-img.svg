@@ -32,8 +32,8 @@
 </g>
 <defs>
 <filter id="filter0_i_0_215" x="97.2391" y="18.1628" width="40.5756" height="60.9165" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feFlood flood-opacity="0" result="BackgroundimgFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundimgFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="-6"/>
 <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
@@ -41,8 +41,8 @@
 <feBlend mode="normal" in2="shape" result="effect1_innerShadow_0_215"/>
 </filter>
 <filter id="filter1_i_0_215" x="130.867" y="7.65308" width="91.5227" height="116.669" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feFlood flood-opacity="0" result="BackgroundimgFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundimgFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="6"/>
 <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
